@@ -6,8 +6,8 @@ authors = ["Todd Birchard <toddbirchard@gmail.com>"]
 maintainers = ["Todd Birchard <toddbirchard@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/toddbirchard/mixpanel_delete_users/"
-repository = "https://github.com/toddbirchard/mixpanel_delete_users/"
+homepage = "https://github.com/toddbirchard/mixpanel-delete-profiles/"
+repository = "https://github.com/toddbirchard/mixpanel-delete-profiles/"
 keywords = [
     "Mixpanel",
     "Analytics",
@@ -34,4 +34,4 @@ build-backend = "poetry.masonry.api"
 run = "main:script"
 
 [tool.poetry.urls]
-issues = "https://github.com/toddbirchard/mixpanel_delete_users/issues"
+issues = "https://github.com/toddbirchard/mixpanel-delete-profiles/issues"
