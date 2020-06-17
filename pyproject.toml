@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "mixpanel_delete_profiles"
+version = "0.1.0"
+description = "Programatically delete Mixpanel user profiles to avoid overage charges."
+authors = ["Todd Birchard <toddbirchard@gmail.com>"]
+maintainers = ["Todd Birchard <toddbirchard@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/toddbirchard/mixpanel_delete_users/"
+repository = "https://github.com/toddbirchard/mixpanel_delete_users/"
+keywords = [
+    "Mixpanel",
+    "Analytics",
+    "Automation",
+    "Python",
+    "Scripting"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas="*"
+mixpanel = "*"
+loguru = "*"
+python-dotenv = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+run = "main:script"
+
+[tool.poetry.urls]
+issues = "https://github.com/toddbirchard/mixpanel_delete_users/issues"
